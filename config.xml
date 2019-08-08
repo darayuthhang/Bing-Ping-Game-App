@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://darayuthhang17@gmail.com/ns/1.0"
+    id          = "com.darayuth.calGame"
+    versionCode = "13"
+    version     = "3.0.0" >
+
+<!-- versionCode is optional and Android only -->
+
+  <name>Bing And Ping Calculator Game</name>
+
+  <description>
+      The app allows you to compete with your
+      friends with an easy arithmetic. No decimal, but just 
+      pure digit random from 1 to 9. If you use Mutiplcation or division, 
+      you will get 2 points. Using Ding allow you get extra 1 points .
+      However, if it is not correct i will minus you 1 point.
+  </description>
+  <preference name="android-targetSdkVersion" value="26"/>
+  <author email="darayuthhang17@gmail.com">
+      Darayuth Hang
+  </author>
+  
+</widge

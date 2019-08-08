@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title></title>
+	
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="header" class="header">
+	<p onclick="getTimeLimit(60)"id="p_One">One Minute</p>
+	<p onclick="getTimeLimit(120)"id="p_Two">Two Minutes</p>
+	<p onclick="getTimeLimit(180)"id="p_Three">Three Minutes</p>
+</div>
+
+<div id="timers" class="timer">
+	<h1 id="timer"></h1>
+	<h1 id="countPoint"></h1>
+</div>
+
+<div id="popup"></div>
+
+<div id="wrapper" class="wrapper">
+	  <input id="randomText" type="text" name="text">
+	  <input id="input_text1" type="text" name="text">
+	
+	<div class="container">
+		<input onclick="buttonValue('c')" class="grid-item" type="button" name="mc" value="C">
+		<a href="index.html" class="grid-item">
+			<input onclick="buttonValue('menu')" id="menu"  type="button" name="menu" value="menu">
+		</a>
+		
+
+		<input class="grid-item" type="button" name="%" value="%">
+		<input onclick="buttonValue('/')"class="grid-item" type="button" name="/" value="/">
+		
+		<input onclick="buttonValue('7')" class="grid-item" type="button" name="7" value="7">
+		<input onclick="buttonValue('8')"class="grid-item" type="button" name="8" value="8">
+		<input onclick="buttonValue('9')"class="grid-item" type="button" name="9" value="9">
+		<input onclick="buttonValue('x')"class="grid-item" type="button" name="x" value="x">
+
+		<input onclick="buttonValue('4')"class="grid-item" type="button" name="4" value="4">
+		<input onclick="buttonValue('5')"class="grid-item" type="button" name="5" value="5">
+		<input onclick="buttonValue('6')"class="grid-item" type="button" name="6" value="6">
+		<input onclick="buttonValue('-')" class="grid-item" type="button" name="-" value="-">
+
+		<input onclick="buttonValue('1')" class="grid-item" type="button" name="1" value="1">
+		<input onclick="buttonValue('2')" class="grid-item" type="button" name="2" value="2">
+		<input onclick="buttonValue('3')" class="grid-item" type="button" name="3" value="3">
+		<input onclick="buttonValue('+')" class="grid-item" type="button" name="+" value="+">
+
+		<input onclick="buttonValue('0')"class="grid-item" id="grid-item1" type="button" name="0" value="0">
+		<input onclick="buttonValue('Bing')"class="grid-item" type="button" name="5" value="Bingo">
+		<input onclick="buttonValue('Ding')"class="grid-item" type="button" name="." value="Ding">
+		
+	</div>
+</div>
+	
+
+</body>
+<script  src="calculator.js"></script>
+<script  src="stack.js"></script>
+<script  src="app.js"></script>
+
+</html>
